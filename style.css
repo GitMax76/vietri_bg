@@ -1,0 +1,219 @@
+.input-style {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+select.input-style {
+    background-color: white;
+}
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    #setup {
+      max-width: 400px;
+      margin: 100px auto;
+      text-align: center;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #game {
+      display: none;
+    }
+
+    .market {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .player-areas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .player-area {
+      flex: 1;
+      min-width: 300px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .player-stats {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 10px;
+      padding: 10px;
+      background: #f8f8f8;
+      border-radius: 5px;
+    }
+
+    .card {
+      width: 200px;
+      height: 280px;
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 10px;
+      background: white;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card.completed {
+      background: #f0f0f0;
+      opacity: 0.8;
+    }
+
+    .card-icon {
+      font-size: 40px;
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 14px;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .card-difficulty {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .card-resources {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .card-rewards {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      font-size: 12px;
+    }
+
+    .player-selector {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      text-align: center;
+    }
+
+    .player-selector button {
+      margin: 10px;
+      min-width: 150px;
+    }
+
+    .player-selector h3 {
+      margin-bottom: 15px;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+
+    .current-player {
+      text-align: center;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .player-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+
+    input {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    #marketCards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+	
+	.gray-square {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        background-color: gray;
+        margin-right: 0.2em;
+    }
+	
